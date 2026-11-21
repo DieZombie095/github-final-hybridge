@@ -1,0 +1,12 @@
+[DEFAULT]
+bantime = 1h
+findtime = 10m
+maxretry = 3
+backend = systemd
+banaction = ufw
+
+[sshd]
+enabled = true
+port = 2222
+filter = sshd
+logpath = %(sshd_log)s
