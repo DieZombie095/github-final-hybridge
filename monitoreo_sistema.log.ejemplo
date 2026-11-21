@@ -1,0 +1,19 @@
+# EJEMPLO ILUSTRATIVO; no son mediciones de un servidor real.
+# Los registros reales se generan en /var/log/monitoreo_sistema.log al ejecutar el script.
+===== MONITOREO: EJEMPLO 1 =====
+[CARGA] uptime
+[MEMORIA Y SWAP] free -h
+[ALMACENAMIENTO] df -h
+[PROCESOS] ps -eo pid,comm,%cpu,%mem
+
+===== MONITOREO: EJEMPLO 2 =====
+[CARGA] uptime
+[MEMORIA Y SWAP] free -h
+[ALMACENAMIENTO] df -h
+[PROCESOS] ps -eo pid,comm,%cpu,%mem
+
+===== MONITOREO: EJEMPLO 3 =====
+[CARGA] uptime
+[MEMORIA Y SWAP] free -h
+[ALMACENAMIENTO] df -h
+[PROCESOS] ps -eo pid,comm,%cpu,%mem
