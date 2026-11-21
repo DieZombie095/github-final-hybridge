@@ -1,0 +1,2 @@
+# Monitoreo del servidor cada cinco minutos.
+*/5 * * * * /usr/local/bin/monitoreo_sistema.sh
